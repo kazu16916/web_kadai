@@ -182,7 +182,8 @@ vim public/kadai.php
 ```
 
 
-```<?php
+```
+<?php
 $dbh = new PDO('mysql:host=mysql;dbname=example_db', 'root', '');
 
 if (isset($_POST['body'])) {
