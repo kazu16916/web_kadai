@@ -1,11 +1,11 @@
 # Kadai ページ表示方法
 
-##エラー情報 
-##”Can't open file for writing”と出力が出る可能性があるので 
+## エラー情報 
+## ”Can't open file for writing”と出力が出る可能性があるので 
 ```bash
 sudo chown -R ec2-user:ec2-user public/
 ```
-##など現在書き込もうとしているディレクトリを書き込み権限追加してください 
+## など現在書き込もうとしているディレクトリを書き込み権限追加してください 
 
 ## 1. EC2 インスタンスの作成
 
