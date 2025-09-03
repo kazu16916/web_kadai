@@ -2,9 +2,9 @@
 
 ##エラー情報 
 ##”Can't open file for writing”と出力が出る可能性があるので 
-'''bash
+```bash
 sudo chown -R ec2-user:ec2-user public/
-'''
+```
 ##など現在書き込もうとしているディレクトリを書き込み権限追加してください 
 
 ## 1. EC2 インスタンスの作成
