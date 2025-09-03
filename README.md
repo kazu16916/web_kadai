@@ -161,7 +161,7 @@ RUN docker-php-ext-install fileinfo && docker-php-ext-enable fileinfo
 
 COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 ```
-
+## SSHを一度ログアウトし、もう一度ログイン
 ## 14. MySQL テーブル作成
 ```bash
 docker compose exec mysql mysql example_db
